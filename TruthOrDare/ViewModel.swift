@@ -12,7 +12,7 @@ class ViewModel {
     
     //Truth
     private let truths = [
-            "Have you ever let someone take the blame for something you did?"
+            "Have you ever let someone  blame for something you did?"
         ]
     
     //Dare
