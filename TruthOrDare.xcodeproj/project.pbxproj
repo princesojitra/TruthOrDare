@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,10 @@
 		AB654D82212D686700080E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB654D80212D686700080E76 /* Main.storyboard */; };
 		AB654D84212D686800080E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB654D83212D686800080E76 /* Assets.xcassets */; };
 		AB654D87212D686800080E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB654D85212D686800080E76 /* LaunchScreen.storyboard */; };
-		AB654D95212DA86400080E76 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654D94212DA86400080E76 /* ViewModelTests.swift */; };
+		AB654D95212DA86400080E76 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654D94212DA86400080E76 /* ViewModelTests.swift */; platformFilter = ios; };
 		AB654D9D212DAA3E00080E76 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654D9C212DAA3E00080E76 /* ViewModel.swift */; };
 		ABAF8A6121303418001DA576 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF8A5D21303418001DA576 /* Crashlytics.framework */; };
 		ABAF8A6221303418001DA576 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAF8A5E21303418001DA576 /* Fabric.framework */; };
-		ABAF8A6F2130372C001DA576 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABAF8A6D2130372C001DA576 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ABAF8A702130372C001DA576 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABAF8A6E2130372C001DA576 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +35,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ABAF8A6F2130372C001DA576 /* Nimble.framework in CopyFiles */,
-				ABAF8A702130372C001DA576 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +54,6 @@
 		AB654D9C212DAA3E00080E76 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		ABAF8A5D21303418001DA576 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Carthage/Build/iOS/Crashlytics.framework; sourceTree = SOURCE_ROOT; };
 		ABAF8A5E21303418001DA576 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Carthage/Build/iOS/Fabric.framework; sourceTree = SOURCE_ROOT; };
-		ABAF8A6D2130372C001DA576 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		ABAF8A6E2130372C001DA576 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +79,6 @@
 		AB654D70212D686700080E76 = {
 			isa = PBXGroup;
 			children = (
-				ABAF8A6D2130372C001DA576 /* Nimble.framework */,
-				ABAF8A6E2130372C001DA576 /* Quick.framework */,
 				AB654D7B212D686700080E76 /* TruthOrDare */,
 				AB654D93212DA86400080E76 /* TruthOrDareTests */,
 				ABAF8A5B21303403001DA576 /* Frameworks */,
@@ -273,6 +265,7 @@
 /* Begin PBXTargetDependency section */
 		AB654D98212DA86400080E76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = AB654D78212D686700080E76 /* TruthOrDare */;
 			targetProxy = AB654D97212DA86400080E76 /* PBXContainerItemProxy */;
 		};
