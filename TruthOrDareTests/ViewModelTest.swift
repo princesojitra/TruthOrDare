@@ -26,9 +26,9 @@ class ViewModelTest: XCTestCase {
         XCTAssertEqual(5, viewModel.totalTruths)
     }
     
-    func testFirstTruth_WhenCorrectFirstTruthProvided_ReturnTrue() {
-        XCTAssertEqual("What are you most self-conscious about?", viewModel.getTruth(for: 0))
-    }
+//    func testFirstTruth_WhenCorrectFirstTruthProvided_ReturnTrue() {
+//        XCTAssertEqual("What are you most self-conscious about?", viewModel.getTruth(for: 0))
+//    }
     
    
     func testSecondTruth_WhenCorrectSecondTruthProvided_ReturnTrue() {
@@ -44,7 +44,7 @@ class ViewModelTest: XCTestCase {
      func testFirstDare_WhenCorrectFirstDareProvided_ReturnTrue() {
          XCTAssertEqual("For a guy, put on makeup. For a girl, wash off your make up.", viewModel.getDare(for: 0))
      }
-//
+     
      
     
     
