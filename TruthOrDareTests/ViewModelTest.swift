@@ -41,11 +41,12 @@ class ViewModelTest: XCTestCase {
     }
     
     
-//     func testFirstDare_WhenCorrectFirstDareProvided_ReturnTrue() {
-//         XCTAssertEqual("For a guy, put on makeup. For a girl, wash off your make up.", viewModel.getDare(for: 0))
-//     }
-//
-     
+
+     func testFirstDare_WhenCorrectFirstDareProvided_ReturnTrue() {
+         XCTAssertEqual("For a guy, put on makeup. For a girl, wash off your make up.", viewModel.getDare(for: 0))
+     }
+
+
     
     
     override func setUpWithError() throws {
