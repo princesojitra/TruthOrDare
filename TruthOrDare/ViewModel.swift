@@ -16,6 +16,7 @@ class ViewModel {
         "What would you do if you were the opposite sex for a month?",
         "What is the most expensive thing you have stolen?",
         "What is the most childish thing you still do?",
+        "What is the most childish thing you still do?",
         "Have you ever let someone take the blame for something you did?"
     ]
     
