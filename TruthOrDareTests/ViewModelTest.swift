@@ -32,8 +32,8 @@ class ViewModelTest: XCTestCase {
 //    }
     
    
-    func testSecondTruth_WhenCorrectSecondTruthProvided_ReturnTrue() {
-        XCTAssertEqual("What would you do if you were the opposite sex for a month?", viewModel.getTruth(for: 1))
+//    func testSecondTruth_WhenCorrectSecondTruthProvided_ReturnTrue() {
+//        XCTAssertEqual("What would you do if you were the opposite sex for a month?", viewModel.getTruth(for: 1))
     }
     
 
