@@ -27,9 +27,9 @@ class ViewModelTest: XCTestCase {
     }
 
     
-//    func testFirstTruth_WhenCorrectFirstTruthProvided_ReturnTrue() {
-//        XCTAssertEqual("What are you most self-conscious about?", viewModel.getTruth(for: 0))
-//    }
+    func testFirstTruth_WhenCorrectFirstTruthProvided_ReturnTrue() {
+        XCTAssertEqual("What are you most self-conscious about?", viewModel.getTruth(for: 0))
+    }
     
    
     func testSecondTruth_WhenCorrectSecondTruthProvided_ReturnTrue() {
