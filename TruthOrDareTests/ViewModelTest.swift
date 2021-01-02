@@ -25,26 +25,26 @@ class ViewModelTest: XCTestCase {
     func testTruthCount_ShouldHaveFiveTruths_ReturnTrue() {
         XCTAssertEqual(5, viewModel.totalTruths)
     }
-    
-    func testFirstTruth_WhenCorrectFirstTruthProvided_ReturnTrue() {
-        XCTAssertEqual("What are you most self-conscious about?", viewModel.getTruth(for: 0))
-    }
-    
-   
-    func testSecondTruth_WhenCorrectSecondTruthProvided_ReturnTrue() {
-        XCTAssertEqual("What would you do if you were the opposite sex for a month?", viewModel.getTruth(for: 1))
-    }
-    
+//    
+//func testFirstTruth_WhenCorrectFirstTruthProvided_ReturnTrue() {
+//        XCTAssertEqual("What are you most self-conscious about?", viewModel.getTruth(for: 0))
+//    }
+//    
+//   
+//    func testSecondTruth_WhenCorrectSecondTruthProvided_ReturnTrue() {
+//        XCTAssertEqual("What would you do if you were the opposite sex for a month?", viewModel.getTruth(for: 1))
+//    }
+        
     
     func testDareCount_ShouldHaveFiveDares_ReturnTrue() {
         XCTAssertEqual(5, viewModel.totalDares)
     }
     
     
-     func testFirstDare_WhenCorrectFirstDareProvided_ReturnTrue() {
-         XCTAssertEqual("For a guy, put on makeup. For a girl, wash off your make up.", viewModel.getDare(for: 0))
-     }
-     
+//     func testFirstDare_WhenCorrectFirstDareProvided_ReturnTrue() {
+//         XCTAssertEqual("For a guy, put on makeup. For a girl, wash off your make up.", viewModel.getDare(for: 0))
+//     }
+//
      
     
     
