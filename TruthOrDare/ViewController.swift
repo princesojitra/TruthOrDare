@@ -8,7 +8,7 @@
 
 import UIKit
 import Crashlytics
-
+//amend commit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -16,30 +16,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let button = UIButton(type: .roundedRect)
         button.frame = CGRect(x: 20, y: 50, width: 100, height: 30)
-//         button.setTitle("Crash", for: [])
+         button.setTitle("Crash", for: [])
         button.addTarget(self, action: #selector(self.crashButtonTapped(_:)), for: .touchUpInside)
         view.addSubview(button)
 
     }
-//amend commit
+
     @IBAction func crashButtonTapped(_ sender: AnyObject) {
         Crashlytics.sharedInstance().crash()
     }
 
-    
-    //amend commit
-    @IBAction func crasahButtonTapped(_ sender: AnyObject) {
-        Crashlytics.sharedInstance().crash()
-    }
-
-    //amend commit
-    @IBAction func crasahButtonTappedw(_ sender: AnyObject) {
-        Crashlytics.sharedInstance().crash()
-    }
-
-    //afteramend commit
-    @IBAction func aftercrasahButtonTappedw(_ sender: AnyObject) {
-        Crashlytics.sharedInstance().crash()
-    }
 }
 
