@@ -16,18 +16,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let button = UIButton(type: .roundedRect)
         button.frame = CGRect(x: 20, y: 50, width: 100, height: 30)
-         button.setTitle("Crash", for: [])
+//         button.setTitle("Crash", for: [])
         button.addTarget(self, action: #selector(self.crashButtonTapped(_:)), for: .touchUpInside)
-        //this is on after amend commit
         view.addSubview(button)
-        //this is on after amend commit
+
     }
 
     @IBAction func crashButtonTapped(_ sender: AnyObject) {
         Crashlytics.sharedInstance().crash()
     }
 
+    
+    //amend commit
+    @IBAction func crasahButtonTapped(_ sender: AnyObject) {
+        Crashlytics.sharedInstance().crash()
+    }
 
+    //amend commit
+    @IBAction func crasahButtonTappedw(_ sender: AnyObject) {
+        Crashlytics.sharedInstance().crash()
+    }
 
 }
 

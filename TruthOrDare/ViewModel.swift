@@ -16,7 +16,8 @@ class ViewModel {
         "What would you do if you were the opposite sex for a month?",
         "What is the most expensive thing you have stolen?",
         "What is the most childish thing you still do?",
-        "Have you ever let someone take the blame for something you did?"
+        "Have you ever let someone take the blame for something you did?",
+        "Have you ever let someone take the blame for something you did?",
         "Have you ever let someone take the blame for something you did?"
     ]
     
@@ -30,6 +31,16 @@ class ViewModel {
         "Curse like sailor for 20 seconds straight."
     ]
     
+    //AmendTruth
+    private let amendtruths = [
+        "What are you most self-conscious about?",
+        "What would you do if you were the opposite sex for a month?",
+        "What is the most expensive thing you have stolen?",
+        "What is the most childish thing you still do?",
+        "Have you ever let someone take the blame for something you did?",
+        "Have you ever let someone take the blame for something you did?",
+        "Have you ever let someone take the blame for something you did?"
+    ]
     var totalTruths: Int { return truths.count }
     var totalDares: Int { return dares.count }
     
