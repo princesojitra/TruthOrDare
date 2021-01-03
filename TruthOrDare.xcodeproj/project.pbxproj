@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14247FF25A1E08400DDD83C /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14247FE25A1E08400DDD83C /* test.swift */; };
 		A194DB9B25A05A8300615EF3 /* ViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A194DB9A25A05A8300615EF3 /* ViewModelTest.swift */; };
 		AB654D7D212D686700080E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654D7C212D686700080E76 /* AppDelegate.swift */; };
 		AB654D7F212D686700080E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB654D7E212D686700080E76 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A14247FE25A1E08400DDD83C /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		A194DB9A25A05A8300615EF3 /* ViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTest.swift; sourceTree = "<group>"; };
 		AB654D79212D686700080E76 /* TruthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB654D7C212D686700080E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			children = (
 				AB654D7C212D686700080E76 /* AppDelegate.swift */,
 				AB654D7E212D686700080E76 /* ViewController.swift */,
+				A14247FE25A1E08400DDD83C /* test.swift */,
 				AB654D9C212DAA3E00080E76 /* ViewModel.swift */,
 				AB654D80212D686700080E76 /* Main.storyboard */,
 				AB654D83212D686800080E76 /* Assets.xcassets */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB654D7F212D686700080E76 /* ViewController.swift in Sources */,
+				A14247FF25A1E08400DDD83C /* test.swift in Sources */,
 				AB654D9D212DAA3E00080E76 /* ViewModel.swift in Sources */,
 				AB654D7D212D686700080E76 /* AppDelegate.swift in Sources */,
 			);
