@@ -17,12 +17,14 @@ class ViewModel {
         "What is the most expensive thing you have stolen?",
         "What is the most childish thing you still do?",
         "Have you ever let someone take the blame for something you did?"
+        "Have you ever let someone take the blame for something you did?"
     ]
     
     //Dare
     private let dares = [
         "For a guy, put on makeup. For a girl, wash off your make up.",
         "Dance with no music for 1 minute.",
+        "For a guy, put on makeup. For a girl, wash off your make up.",
         "Try to drink a glass water while standing on your hands.",
         "Let the group pose you in an embarrassing position and take a picture.",
         "Curse like sailor for 20 seconds straight."
