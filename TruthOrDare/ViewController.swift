@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         view.addSubview(button)
 
     }
-
+//amend commit
     @IBAction func crashButtonTapped(_ sender: AnyObject) {
         Crashlytics.sharedInstance().crash()
     }
