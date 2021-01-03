@@ -37,5 +37,9 @@ class ViewController: UIViewController {
         Crashlytics.sharedInstance().crash()
     }
 
+    //afteramend commit
+    @IBAction func aftercrasahButtonTappedw(_ sender: AnyObject) {
+        Crashlytics.sharedInstance().crash()
+    }
 }
 
