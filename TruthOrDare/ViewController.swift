@@ -8,7 +8,7 @@
 
 import UIKit
 import Crashlytics
-//amend commit
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
